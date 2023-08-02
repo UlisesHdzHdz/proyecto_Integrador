@@ -1,6 +1,17 @@
  import 'dart:convert';
 import 'package:http/http.dart' as http;
 
+class Administrador {
+  final String nombre;
+  final String correoElectronico;
+  final String contrasenia;
+
+  Administrador({
+    required this.nombre,
+    required this.correoElectronico,
+    required this.contrasenia,
+  });
+}
 
 Future<void> getPedido() async {
     try {

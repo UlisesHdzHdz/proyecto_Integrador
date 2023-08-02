@@ -1,16 +1,15 @@
-class Repartidor {
-  final int idRepartidor;
+class Cliente {
   final String nombre;
   final String correoElectronico;
+  final String contrasenia;
   final String direccion;
-  final String numero;
+  final String telefono;
 
-  Repartidor({
-    required this.idRepartidor,
+  Cliente({
     required this.nombre,
     required this.correoElectronico,
+    required this.contrasenia,
     required this.direccion,
-    required this.numero,
-
+    required this.telefono,
   });
 }
